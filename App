@@ -1,0 +1,44 @@
+
+class Example {
+
+	// Usually only static final members are public
+	public static final int RANDOM = 7;
+
+	// Instance variables should be declared private when possible,
+	// or at least protected.
+
+	// Only methods intended for use outside the class
+	// should be public. These methods should be documented
+	// carefully if you distribute your code.
+
+	private int evilNumber = 666;
+
+	public String getData() {
+		String result = "random text stuff" + randomNumberCalculation();
+		return result;
+
+	}
+
+	// Methods only used the the class itself should
+	// be private or protected.
+	private int randomNumberCalculation() {
+		return 777;
+	}
+
+	public int getEvilNumber() {
+		return evilNumber;
+	}
+
+	public void setEvilNumber(int evilNumber) {
+		this.evilNumber = evilNumber;
+	}
+
+}
+
+public class App {
+
+	public static void main(String[] args) {
+
+	}
+
+}

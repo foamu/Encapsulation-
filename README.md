@@ -1,2 +1,2 @@
 # Encapsulation-
-Covering the meaning &amp; purpose of encapsulation; the practice of hiding away as much variables and code as possible from the public, leaving only to the public what is required to be used by the end user.
+Covering the meaning &amp; purpose of encapsulation; the practice of privatising as much code as possible, leaving only public that which is necessary and to be used by the end-user. 
